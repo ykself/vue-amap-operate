@@ -1,7 +1,32 @@
 # 写在开头
 本文参考了https://elemefe.github.io/vue-amap/#/
 
-# 版本信息
+# 版本信息:package.json
+{
+  "name": "vueamap",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "sass": "^1.27.0",
+    "sass-loader": "^10.0.4",
+    "vue": "^2.6.11",
+    "vue-amap": "^0.5.10",
+    "vue-router": "^3.2.0",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "vue-template-compiler": "^2.6.11"
+  }
+}
 
 # 使用步骤
 1、新建文件夹
